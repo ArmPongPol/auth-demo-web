@@ -5,7 +5,7 @@ async function login() {
     errorElement.textContent = "";
     
     try {
-        const response = await fetch("http://35.247.141.133:8080/api/user/login", {
+        const response = await fetch("https://aef1-35-198-233-86.ngrok-free.app/api/user/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
